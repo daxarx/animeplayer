@@ -143,7 +143,7 @@
 <script>
     // Получить URL видео из параметра запроса
     const urlParams = new URLSearchParams(window.location.search);
-    const videoUrl = urlParams.get('video') || 'angelkrov.mp4';
+    const videoUrl = urlParams.get('video') || 'https://vimeo.com/987937991';
 
     // Динамически установить источник видео
     const videoSource = document.getElementById('video-source');
